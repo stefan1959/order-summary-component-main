@@ -40,9 +40,9 @@ body {
 
 .card__content {
   display: grid;
+  gap: 1.2rem;
   color: hsl(var(--dark-blue));
   font-weight: 600;
-  gap: 1rem;
   padding: 2rem 1rem;
   text-align: center;
 }
@@ -75,6 +75,7 @@ body {
   cursor: pointer;
   background-color: hsl(var(--bright-blue));
   color: hsl(var(--white));
+  box-shadow: 0px 8px 10px hsl(var(--bright-blue) / 0.4);
   border: 0;
   border-radius: 10px;
   padding-block: 0.5rem;
@@ -87,7 +88,7 @@ body {
 }
 @media (min-width: 400px) {
   body {
-    background-color: hsl(var(--very-pale-blue));
+    background-color: hsl(var(--pale-blue));
     background-image: url(/images/pattern-background-desktop.svg);
     background-position: top center;
     background-size: 100%;
